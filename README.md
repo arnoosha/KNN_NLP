@@ -19,7 +19,7 @@ Two CSVs are expected for a typical workflow:
 
 - **Training**: `nlp_train.csv` with columns:
   - `Text`: the article body (Persian),
-  - `Category`: the class label (e.g., «ورزشی», «سیاسی», …).
+  - `Category`: the class label (e.g., «sport», «politic», …).
 - **Testing / Inference**: `nlp_test.csv` (or any CSV with the same schema).
 
 **Optional crawling utilities** are provided to collect raw data:
